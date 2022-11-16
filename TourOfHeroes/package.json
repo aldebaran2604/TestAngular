@@ -1,6 +1,7 @@
 {
   "name": "tour-of-heroes",
   "version": "0.0.0",
+  "description": "Example Tour of Heroes.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -18,10 +19,11 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
+    "angular-in-memory-web-api": "^0.14.0",
+    "jest-editor-support": "*",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4",
-    "jest-editor-support": "*"
+    "zone.js": "~0.11.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.3",

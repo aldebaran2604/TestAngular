@@ -3,10 +3,18 @@
     <StartupCommand>npm start</StartupCommand>
     <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
     <!-- Command to run on project build -->
-    <BuildCommand></BuildCommand>
+    <BuildCommand>
+    </BuildCommand>
     <!-- Command to create an optimized build of the project that's ready for publishing -->
     <ProductionBuildCommand>npm run build</ProductionBuildCommand>
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\TourOfHeroes</BuildOutputFolder>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\app\messages\" />
+    <Folder Include="src\app\heroes\" />
+    <Folder Include="src\app\hero-search\" />
+    <Folder Include="src\app\hero-detail\" />
+    <Folder Include="src\app\dashboard\" />
+  </ItemGroup>
 </Project>
