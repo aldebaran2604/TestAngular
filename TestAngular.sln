@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "TourOfHeroes", "TourOfHeroes\TourOfHeroes.esproj", "{7E23425C-69A0-40CD-A135-7098307D9784}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "USPCoffeeShop", "USPCoffeeShop\USPCoffeeShop.esproj", "{7A5DBDC2-3B74-4EC2-81D6-833714ADF0CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USPCoffeeShopAPI", "USPCoffeeShopAPI\USPCoffeeShopAPI.csproj", "{24D74103-AFB6-404E-8164-361441733F65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,16 @@ Global
 		{7E23425C-69A0-40CD-A135-7098307D9784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E23425C-69A0-40CD-A135-7098307D9784}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7E23425C-69A0-40CD-A135-7098307D9784}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7A5DBDC2-3B74-4EC2-81D6-833714ADF0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5DBDC2-3B74-4EC2-81D6-833714ADF0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5DBDC2-3B74-4EC2-81D6-833714ADF0CB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7A5DBDC2-3B74-4EC2-81D6-833714ADF0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5DBDC2-3B74-4EC2-81D6-833714ADF0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A5DBDC2-3B74-4EC2-81D6-833714ADF0CB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{24D74103-AFB6-404E-8164-361441733F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D74103-AFB6-404E-8164-361441733F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D74103-AFB6-404E-8164-361441733F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D74103-AFB6-404E-8164-361441733F65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
